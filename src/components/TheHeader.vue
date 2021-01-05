@@ -66,3 +66,9 @@
     </header>
     <!-- Start header section -->
 </template>
+
+<style scoped>
+.nav-brand {
+    color: #721fa5 !important;
+}
+</style>

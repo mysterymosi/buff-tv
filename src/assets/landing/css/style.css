@@ -2630,23 +2630,24 @@ td, th {
 .accordion > dt > a {
   display: block;
   position: relative;
-  color: #222222;
+  color: #fff;
+  background: rgba(190, 186, 190, .5); 
   text-decoration: none;
   padding: 14px 20px;
   border-radius: 3px;
-  border: 1px solid #e8e8e8;
+  /*border: 1px solid #e8e8e8;*/
 }
 
-.accordion > dt > a:hover {
+/*.accordion > dt > a:hover {
   text-decoration: none;
   border-color: #ddd;
   background: #fbfbfb;
-}
+}*/
 
 .accordion > dt > a.active {
   color: #fff;
-  border-color: #691cff;
-  background: #691cff;
+  /*border-color: #691cff;*/
+  background: rgba(190, 186, 190, .5);
   cursor: default;
 }
 .accordion > dt > a.active:after {
@@ -2689,7 +2690,7 @@ td, th {
   padding: 10px 20px 20px;
   font-size: 14px;
   line-height: 1.8;
-  color: #777;
+  color: #fff;
 }
 
 .accordion > dt > a,
@@ -3055,4 +3056,7 @@ td, th {
   color: #691cff;
 }
 
+.section-title h2 {
+  color: #721fa5;
+}
 

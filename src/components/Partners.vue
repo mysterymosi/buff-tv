@@ -4,6 +4,7 @@
         <div class="container">
             <div class="section-title">
                 <h2 class="text-center">Our Partners</h2>
+                <hr>
             </div>
             <div class="row align-item-center">
                 <div class="col-lg-3 col-md-6 col-sm-6 single-logo">
@@ -27,5 +28,10 @@
 <style scoped>
 .featured-section {
 	background-color: #eee;
+}
+
+hr {
+	border-bottom: 3px solid #721fa5;
+	width: 80px;
 }
 </style>

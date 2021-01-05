@@ -195,7 +195,7 @@ $('#screenshot-carusel').owlCarousel({
 
 
   $(document).ready(function () {
-
+    // $(".accordion > dt > a").removeClass("active");
     $(".skills").addClass("active");
     $(".skills .skill .skill-bar span").each(function () {
       $(this).animate({
