@@ -1,6 +1,6 @@
 <template>
     <div id="main">
-        <TheHeader />
+        <!-- <TheHeader /> -->
         <router-view />
         <VueInjectJs src="/landing/js/vendor/popper.min.js" />
         <VueInjectJs src="/landing/js/jquery.easing.1.3.js" />
@@ -15,11 +15,11 @@
 
 <script>
 import VueInjectJs from "vue-inject-js";
-import TheHeader from "@/components/TheHeader.vue";
+// import TheHeader from "@/components/TheHeader.vue";
 export default {
 	components: {
-		VueInjectJs,
-		TheHeader
+		VueInjectJs
+		// TheHeader
 	}
 }
 </script>
