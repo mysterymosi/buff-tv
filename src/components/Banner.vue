@@ -1,5 +1,5 @@
 <template>
-    <section id="home">
+    <!-- <section id="home">
         <div class="row">
             <div class="owl-carousel owl-theme home-slider">
                 <div class="item item-first">
@@ -74,49 +74,43 @@
             </div>
         </div>
         <VueInjectJs src="/lib/owl-carousel/custom.js" />
-    </section>
-    <!-- Start banner section -->
-    <!-- <div class="owl-carousel owl-theme home-slider">
-        <div class="item item-first">
-            
-        </div>
-    </div> -->
-    <!--  <section class="banner-section relative section-gap-full" id="banner-section">
-        <div class="overlay overlay-bg"></div>
+    </section> -->
+    <!-- End banner section -->
+    <section id="home" class="parallax-section">
+        <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 banner-left">
-                    <div class="input-group md-form form-sm form-2 pl-0">
-                        <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Enter Email" aria-label="Search">
-                        <div class="input-group-append">
-                            <span class="input-group-text amber lighten-3" id="basic-text1">Get Started</span>
+                <div class="col-md-6 col-sm-12">
+                    <div class="home-text">
+                        <div class="input-group md-form form-sm form-2 pl-0">
+                            <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Enter Email" aria-label="Search">
+                            <div class="input-group-append">
+                                <span class="input-group-text amber lighten-3" id="basic-text1">Get Started</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="btn-flex">
-                        <a href="about-us.html"><img class="img-fluid" src="../assets/landing/img/play.svg" alt=""></a>
-                        <a href="about-us.html"><img class="img-fluid" src="../assets/landing/img/apple.svg" alt=""></a>
+                        <div class="btn-flex">
+                            <a href="#"><img class="app-store-btn" src="../assets/images/app-store-icon.png" alt="App Store Icon"></a>
+                            <a href="#"><img class="google-play-btn" src="../assets/images/google-play-icon.png" alt="Google Play Icon"></a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 banner-right text-center">
-                    <img class="img-fluid" src="../assets/landing/img/youtube.svg" alt="">
+                    <img class="img-fluid play-img" src="../assets/landing/img/youtube.svg" alt="">
                 </div>
             </div>
-        </div> -->
-    <!-- <div class="wave">
-            <svg class="nectar-shape-divider" fill="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" preserveAspectRatio="none">
-                <path d="M 1000 299 l 2 -279 c -155 -36 -310 135 -415 164 c -102.64 28.35 -149 -32 -232 -31 c -80 1 -142 53 -229 80 c -65.54 20.34 -101 15 -126 11.61 v 54.39 z"></path>
-                <path d="M 1000 286 l 2 -252 c -157 -43 -302 144 -405 178 c -101.11 33.38 -159 -47 -242 -46 c -80 1 -145.09 54.07 -229 87 c -65.21 25.59 -104.07 16.72 -126 10.61 v 22.39 z"></path>
-                <path d="M 1000 300 l 1 -230.29 c -217 -12.71 -300.47 129.15 -404 156.29 c -103 27 -174 -30 -257 -29 c -80 1 -130.09 37.07 -214 70 c -61.23 24 -108 15.61 -126 10.61 v 22.39 z"></path>
-            </svg>
-        </div> -->
-    <!-- </section> -->
-    <!-- End banner section -->
+        </div>
+        <!-- Video -->
+        <video controls autoplay loop muted>
+            <source src="../assets/videos/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
 </template>
 <script>
-import VueInjectJs from "vue-inject-js"
+// import VueInjectJs from "vue-inject-js"
 export default {
     components: {
-        VueInjectJs
+        // VueInjectJs
     }
 }
 </script>
@@ -155,7 +149,169 @@ export default {
 }
 </style> -->
 <style scoped>
-@import "../assets/lib/owl-carousel/owl.carousel.css";
+#home {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    padding-top: 6em;
+}
+
+#home h1 {
+    color: #ffffff;
+    font-size: 6em;
+    line-height: 1.2em;
+}
+
+#home p {
+    color: rgba(250, 250, 250, 0.7);
+}
+
+#home .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#home video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.parallax-section {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+.section-btn {
+    margin: 32px 0 0 0;
+    padding: 0;
+}
+
+.section-btn a,
+.section-btn button {
+    line-height: 45px;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.section-btn a span,
+.section-btn button span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    padding: 0 25px;
+    background: #4dc47d;
+    border-radius: 1px;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    border-color: transparent;
+}
+
+.input-group-append span {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background: linear-gradient(90deg, #721fa5 0%, #7e166e 100%);
+    color: #fff;
+    border-color: transparent;
+}
+
+.input-group {}
+
+::placeholder {
+    color: #ffffff;
+    opacity: 50%;
+}
+
+img {
+    width: 136px !important;
+}
+
+.play-img {
+    margin: 0 auto;
+    text-align: center;
+    width: 70px !important;
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+    #home h1 {
+        font-size: 4em;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 980px) {
+    #home {
+        padding-top: 0em;
+    }
+}
+
+@media (max-width: 770px) {
+    #home h1 {
+        font-size: 3.5em;
+    }
+}
+
+@media (max-width: 580px) {
+    #home {
+        height: 100vh;
+    }
+
+    .play-img {
+        margin: 40px auto;
+    }
+}
+
+
+
+/*@import "../assets/lib/owl-carousel/owl.carousel.css";
 @import "../assets/lib/owl-carousel/owl.theme.default.min.css";
 
 @media (max-width: 1024px) {
@@ -262,7 +418,6 @@ export default {
 }
 
 .input-group {
-    /*margin: 0 auto;*/
 }
 
 ::placeholder {
@@ -279,4 +434,6 @@ img {
     justify-content: space-around;
     margin-top: 50px;
 }
+
+*/
 </style>

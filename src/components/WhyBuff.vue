@@ -50,6 +50,6 @@
 
 .about-section {
 	background-color: #fafafa;
-	margin-top: 18px;
+	/*margin-top: 18px;*/
 }
 </style>
