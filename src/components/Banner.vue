@@ -104,6 +104,7 @@
             <source src="../assets/videos/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        <img class="home-to-cinema" src="../assets/images/Group 141.svg">
     </section>
 </template>
 <script>
@@ -149,6 +150,85 @@ export default {
 }
 </style> -->
 <style scoped>
+.home-to-cinema {
+    position: absolute;
+    width: 534px !important;
+    left: 940px;
+    top: 644px;
+}
+
+@media (max-width: 1440px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 534px !important;
+        left: 800px;
+        top: 744px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 534px !important;
+        left: 700px;
+        top: 644px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 534px !important;
+        left: 450px;
+        top: 1200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 534px !important;
+        left: 200px;
+        top: 870px;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 304px !important;
+        left: 100px;
+        top: 730px;
+    }
+}
+
+@media (max-width: 384px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 304px !important;
+        left: 70px;
+        top: 720px;
+    }
+}
+
+@media (max-width: 375px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 304px !important;
+        left: 70px;
+        top: 720px;
+    }
+}
+
+@media (max-width: 360px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 304px !important;
+        left: 50px;
+        top: 560px;
+    }
+}
+
 #home {
     display: -webkit-box;
     display: -webkit-flex;
