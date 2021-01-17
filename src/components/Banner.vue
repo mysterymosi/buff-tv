@@ -153,7 +153,7 @@ export default {
 .home-to-cinema {
     position: absolute;
     width: 534px !important;
-    left: 940px;
+    left: 54vw;
     top: 83vh;
 }
 
@@ -161,7 +161,7 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 534px !important;
-        left: 800px;
+        left: 54vw;
         top: 87vh;
     }
 }
@@ -170,7 +170,16 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 534px !important;
-        left: 700px;
+        left: 54vw;
+        top: 87vh;
+    }
+}
+
+@media (max-width: 1169px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 434px !important;
+        left: 54vw;
         top: 87vh;
     }
 }
@@ -178,8 +187,26 @@ export default {
 @media (max-width: 1024px) {
     .home-to-cinema {
         position: absolute;
-        width: 534px !important;
-        left: 450px;
+        /*width: 534px !important;*/
+        left: 54vw;
+        top: 89vh;
+    }
+}
+
+@media (max-width: 942px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 400px !important;
+        left: 54vw;
+        top: 89vh;
+    }
+}
+
+@media (max-width: 865px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 350px !important;
+        left: 54vw;
         top: 89vh;
     }
 }
@@ -187,26 +214,44 @@ export default {
 @media (max-width: 768px) {
     .home-to-cinema {
         position: absolute;
-        width: 534px !important;
-        left: 200px;
-        top: 87vh;
+        width: 320px !important;
+        left: 46vw;
+        top: 89vh;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 592px) {
     .home-to-cinema {
         position: absolute;
-        width: 304px !important;
-        left: 100px;
-        top: 87vh;
+        width: 300px !important;
+        left: 40vw;
+        top: 89vh;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 501px) {
     .home-to-cinema {
         position: absolute;
-        width: 304px !important;
-        left: 140px;
+        width: 300px !important;
+        left: 35vw;
+        top: 89vh;
+    }
+}
+
+@media (max-width: 482px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 300px !important;
+        left: 30vw;
+        top: 90vh;
+    }
+}
+
+@media (max-width: 427px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 300px !important;
+        left: 20vw;
         top: 90vh;
     }
 }
@@ -216,7 +261,7 @@ export default {
         position: absolute;
         width: 304px !important;
         left: 70px;
-        top: 87vh;
+        top: 90vh;
     }
 }
 
@@ -234,34 +279,34 @@ export default {
         position: absolute;
         width: 304px !important;
         left: 70px;
-        top: 87vh;
+        top: 90vh;
     }
 }
 
 @media (max-width: 375px) {
     .home-to-cinema {
         position: absolute;
-        width: 304px !important;
-        left: 70px;
-        top: 89vh;
+        width: 270px !important;
+        left: 24vw;
+        top: 90vh;
     }
 }
 
 @media (max-width: 360px) {
     .home-to-cinema {
         position: absolute;
-        width: 304px !important;
-        left: 50px;
-        top: 87vh;
+        width: 270px !important;
+        left: 15vw;
+        top: 90vh;
     }
 }
 
 @media (max-width: 320px) {
     .home-to-cinema {
         position: absolute;
-        width: 304px !important;
-        left: 17px;
-        top: 87vh;
+        width: 262px !important;
+        left: 9vw;
+        top: 90vh;
     }
 }
 
@@ -269,8 +314,8 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 230px !important;
-        left: 50px;
-        top: 89vh;
+        left: 14vw;
+        top: 92vh;
     }
 }
 
