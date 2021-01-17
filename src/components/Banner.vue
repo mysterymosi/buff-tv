@@ -154,7 +154,7 @@ export default {
     position: absolute;
     width: 534px !important;
     left: 940px;
-    top: 644px;
+    top: 83vh;
 }
 
 @media (max-width: 1440px) {
@@ -162,7 +162,7 @@ export default {
         position: absolute;
         width: 534px !important;
         left: 800px;
-        top: 744px;
+        top: 87vh;
     }
 }
 
@@ -171,7 +171,7 @@ export default {
         position: absolute;
         width: 534px !important;
         left: 700px;
-        top: 644px;
+        top: 87vh;
     }
 }
 
@@ -180,7 +180,7 @@ export default {
         position: absolute;
         width: 534px !important;
         left: 450px;
-        top: 1200px;
+        top: 89vh;
     }
 }
 
@@ -189,7 +189,7 @@ export default {
         position: absolute;
         width: 534px !important;
         left: 200px;
-        top: 870px;
+        top: 87vh;
     }
 }
 
@@ -198,7 +198,34 @@ export default {
         position: absolute;
         width: 304px !important;
         left: 100px;
-        top: 730px;
+        top: 87vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 304px !important;
+        left: 140px;
+        top: 90vh;
+    }
+}
+
+@media (max-width: 414px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 304px !important;
+        left: 70px;
+        top: 87vh;
+    }
+}
+
+@media (max-width: 411px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 304px !important;
+        left: 70px;
+        top: 89vh;
     }
 }
 
@@ -207,7 +234,7 @@ export default {
         position: absolute;
         width: 304px !important;
         left: 70px;
-        top: 720px;
+        top: 87vh;
     }
 }
 
@@ -216,7 +243,7 @@ export default {
         position: absolute;
         width: 304px !important;
         left: 70px;
-        top: 720px;
+        top: 89vh;
     }
 }
 
@@ -225,7 +252,25 @@ export default {
         position: absolute;
         width: 304px !important;
         left: 50px;
-        top: 560px;
+        top: 87vh;
+    }
+}
+
+@media (max-width: 320px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 304px !important;
+        left: 17px;
+        top: 87vh;
+    }
+}
+
+@media (max-width: 280px) {
+    .home-to-cinema {
+        position: absolute;
+        width: 230px !important;
+        left: 50px;
+        top: 89vh;
     }
 }
 

@@ -31,10 +31,10 @@
                             <!-- Nav Start -->
                             <div class="dopenav">
                                 <ul id="nav">
-                                    <li>
+                                    <!-- <li>
                                         <router-link to="/">Home</router-link>
-                                    </li>
-                                    <li>
+                                    </li> -->
+                                    <!-- <li>
                                         <a href="#about-section">About</a>
                                     </li>
                                     <li>
@@ -42,13 +42,13 @@
                                     </li>
                                     <li>
                                         <a href="#price-section">Price</a>
-                                    </li>
+                                    </li> -->
                                     <li>
-                                        <router-link to="/login">Login</router-link>
+                                        <router-link class="btn btn-primary btn-lg" to="/login">Login</router-link>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <router-link to="/register">Signup</router-link>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -64,32 +64,43 @@
 export default {
     data() {
         return {
-            breakpoint: 991
-        }
-    },
-
-    mounted() {
-        this.breakpointCheck();
-    },
-
-    methods: {
-        breakpointCheck() {
-            const navContainer = document.querySelector('.dope-nav-container');
-            let windoWidth = window.innerWidth;
-            console.log("navc: ", navContainer);
-            if (windoWidth <= this.breakpoint) {
-                navContainer.classList.remove('breakpoint-off');
-                navContainer.classList.add('breakpoint-on');
-            } else {
-                navContainer.classList.remove('breakpoint-on');
-                navContainer.classList.add('breakpoint-off');
-            }
+            // breakpoint: 991
         }
     }
+
+    // mounted() {
+    //     this.breakpointCheck();
+    // },
+
+    // methods: {
+    //     breakpointCheck() {
+    //         const navContainer = document.querySelector('.dope-nav-container');
+    //         let windoWidth = window.innerWidth;
+    //         console.log("navc: ", navContainer);
+    //         if (windoWidth <= this.breakpoint) {
+    //             navContainer.classList.remove('breakpoint-off');
+    //             navContainer.classList.add('breakpoint-on');
+    //         } else {
+    //             navContainer.classList.remove('breakpoint-on');
+    //             navContainer.classList.add('breakpoint-off');
+    //         }
+    //     }
+    // }
 }
 </script>
 <style scoped>
 .nav-brand {
     color: #721fa5 !important;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #721fa5 0%, #7e166e 100%);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 86.5px;
+}
+
+.dope-nav-container a:hover {
+    color: #fff;
 }
 </style>
