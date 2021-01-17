@@ -180,7 +180,7 @@ export default {
         position: absolute;
         width: 434px !important;
         left: 54vw;
-        top: 87vh;
+        top: 90vh;
     }
 }
 
@@ -198,7 +198,7 @@ export default {
         position: absolute;
         width: 400px !important;
         left: 54vw;
-        top: 89vh;
+        top: 90vh;
     }
 }
 
@@ -207,7 +207,7 @@ export default {
         position: absolute;
         width: 350px !important;
         left: 54vw;
-        top: 89vh;
+        top: 90vh;
     }
 }
 
@@ -225,7 +225,7 @@ export default {
         position: absolute;
         width: 300px !important;
         left: 40vw;
-        top: 89vh;
+        top: 90vh;
     }
 }
 
@@ -234,7 +234,7 @@ export default {
         position: absolute;
         width: 300px !important;
         left: 35vw;
-        top: 89vh;
+        top: 90vh;
     }
 }
 
@@ -270,7 +270,7 @@ export default {
         position: absolute;
         width: 304px !important;
         left: 70px;
-        top: 89vh;
+        top: 90vh;
     }
 }
 
