@@ -80,25 +80,25 @@
             });
 
             // check browser width in real-time
-            function breakpointCheck() {
-                var windoWidth = window.innerWidth;
-                if (windoWidth <= defaultOpt.breakpoint) {
-                    navContainer.removeClass('breakpoint-off').addClass('breakpoint-on');
-                } else {
-                    navContainer.removeClass('breakpoint-on').addClass('breakpoint-off');
-                }
-            }
+            // function breakpointCheck() {
+            //     var windoWidth = window.innerWidth;
+            //     if (windoWidth <= defaultOpt.breakpoint) {
+            //         navContainer.removeClass('breakpoint-off').addClass('breakpoint-on');
+            //     } else {
+            //         navContainer.removeClass('breakpoint-on').addClass('breakpoint-off');
+            //     }
+            // }
 
-            breakpointCheck();
+            // breakpointCheck();
 
-            var_window.on('resize', function () {
-                breakpointCheck();
-            });
+            // var_window.on('resize', function () {
+            //     breakpointCheck();
+            // });
 
             // always hidden enable
-            if (defaultOpt.alwaysHidden === true) {
-                navContainer.addClass('breakpoint-on').removeClass('breakpoint-off');
-            }
+            // if (defaultOpt.alwaysHidden === true) {
+            //     navContainer.addClass('breakpoint-on').removeClass('breakpoint-off');
+            // }
 
             // sticky
             if (defaultOpt.stickyNav === true) {
