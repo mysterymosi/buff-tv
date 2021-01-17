@@ -189,7 +189,7 @@ export default {
         position: absolute;
         /*width: 534px !important;*/
         left: 54vw;
-        top: 89vh;
+        top: 91vh;
     }
 }
 
@@ -216,7 +216,7 @@ export default {
         position: absolute;
         width: 320px !important;
         left: 46vw;
-        top: 89vh;
+        top: 91vh;
     }
 }
 
