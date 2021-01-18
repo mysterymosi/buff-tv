@@ -154,7 +154,7 @@ export default {
     position: absolute;
     width: 534px !important;
     left: 54vw;
-    top: 83vh;
+    top: 100vh;
 }
 
 @media (max-width: 1440px) {

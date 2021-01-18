@@ -8,8 +8,8 @@
                     <nav class="dope-navbar justify-content-between" id="dopeNav">
                         <!-- Logo -->
                         <a class="nav-brand" href="index.html">
-                            <!-- <img src="../assets/landing/img/logo.png" alt=""> -->
-                            <strong>Buff</strong>
+                            <img class="img-fluid" src="../assets/images/Layer 20-1.png" alt="">
+                            <!-- <strong>Buff</strong> -->
                         </a>
                         <!-- Navbar Toggler -->
                         <div class="dope-navbar-toggler">
