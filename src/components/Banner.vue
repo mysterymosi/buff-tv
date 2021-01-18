@@ -154,7 +154,7 @@ export default {
     position: absolute;
     width: 534px !important;
     left: 54vw;
-    top: 100vh;
+    top: 83vh;
 }
 
 @media (max-width: 1440px) {
@@ -171,7 +171,7 @@ export default {
         position: absolute;
         width: 534px !important;
         left: 54vw;
-        top: 87vh;
+        top: 92vh;
     }
 }
 
@@ -180,7 +180,7 @@ export default {
         position: absolute;
         width: 434px !important;
         left: 54vw;
-        top: 90vh;
+        top: 92vh;
     }
 }
 
@@ -189,7 +189,7 @@ export default {
         position: absolute;
         /*width: 534px !important;*/
         left: 54vw;
-        top: 91vh;
+        top: 92vh;
     }
 }
 
@@ -198,7 +198,7 @@ export default {
         position: absolute;
         width: 400px !important;
         left: 54vw;
-        top: 90vh;
+        top: 92vh;
     }
 }
 
@@ -207,7 +207,7 @@ export default {
         position: absolute;
         width: 350px !important;
         left: 54vw;
-        top: 90vh;
+        top: 92vh;
     }
 }
 
