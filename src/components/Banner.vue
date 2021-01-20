@@ -104,7 +104,12 @@
             <source src="../assets/videos/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <img class="home-to-cinema" src="../assets/images/Group 141.svg">
+        <div class="home-to-cinema">
+            <img src="../assets/images/Group 141.svg">
+            <h2 class="text-center" style="color: black;">
+                Cinema 2 <br> home experience
+            </h2>
+        </div>
     </section>
 </template>
 <script>
@@ -150,38 +155,99 @@ export default {
 }
 </style> -->
 <style scoped>
-.home-to-cinema {
+/*.home-to-cinema-text {
     position: absolute;
     width: 534px !important;
-    left: 54vw;
-    top: 83vh;
+    left: 56vw;
+    top: 114vh;
+}*/
+
+.home-to-cinema {
+    position: absolute;
+    left: 74vw;
+    top: 86vh;
+}
+
+.home-to-cinema img {
+    width: 414px !important;
+}
+
+.home-to-cinema h2 {
+    width: 462px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+    .home-to-cinema {
+        position: absolute;
+        /*width: 534px !important;*/
+        left: 54vw;
+        top: 87vh;
+    }
+
+    .home-to-cinema img {
+        width: 414px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 462px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 1440px) {
     .home-to-cinema {
         position: absolute;
-        width: 534px !important;
+        /*width: 534px !important;*/
         left: 54vw;
         top: 87vh;
+    }
+
+    .home-to-cinema img {
+        width: 414px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 462px;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 1280px) {
     .home-to-cinema {
         position: absolute;
-        width: 534px !important;
-        left: 54vw;
-        top: 92vh;
+        /*width: 534px !important;*/
+        left: 60vw;
+        top: 85vh;
+    }
+
+    .home-to-cinema img {
+        width: 414px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 462px;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 1169px) {
     .home-to-cinema {
         position: absolute;
-        width: 434px !important;
+        /*width: 434px !important;*/
         left: 54vw;
-        top: 92vh;
+        top: 85vh;
     }
+
+    .home-to-cinema img {
+        width: 414px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 462px;
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -214,10 +280,20 @@ export default {
 @media (max-width: 768px) {
     .home-to-cinema {
         position: absolute;
-        width: 320px !important;
-        left: 46vw;
+        /*width: 320px !important;*/
+        left: 39vw;
         top: 91vh;
     }
+
+    .home-to-cinema img {
+        width: 414px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 462px;
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width: 592px) {
@@ -241,10 +317,21 @@ export default {
 @media (max-width: 482px) {
     .home-to-cinema {
         position: absolute;
-        width: 300px !important;
-        left: 30vw;
-        top: 90vh;
+        /*width: 300px !important;*/
+        left: 25vw;
+        top: 92vh;
     }
+
+    .home-to-cinema img {
+        width: 250px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 292px;
+        margin: 0 auto;
+        font-size: 24px;
+    }
+
 }
 
 @media (max-width: 427px) {
@@ -259,26 +346,46 @@ export default {
 @media (max-width: 414px) {
     .home-to-cinema {
         position: absolute;
-        width: 304px !important;
-        left: 14vw;
+        /*width: 304px !important;*/
+        left: 19.5vw;
         top: 90vh;
+    }
+
+    .home-to-cinema img {
+        width: 250px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 292px;
+        margin: 0 auto;
+        font-size: 24px;
     }
 }
 
 @media (max-width: 411px) {
     .home-to-cinema {
         position: absolute;
-        width: 304px !important;
-        left: 12vw;
-        top: 90vh;
+        /*width: 304px !important;*/
+        left: 20vw;
+        top: 91vh;
+    }
+
+    .home-to-cinema img {
+        width: 250px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 292px;
+        margin: 0 auto;
+        font-size: 24px;
     }
 }
 
 @media (max-width: 384px) {
     .home-to-cinema {
         position: absolute;
-        width: 304px !important;
-        left: 10vw;
+        /*width: 304px !important;*/
+        left: 18vw;
         top: 90vh;
     }
 }
@@ -286,18 +393,38 @@ export default {
 @media (max-width: 375px) {
     .home-to-cinema {
         position: absolute;
-        width: 270px !important;
+        /*width: 270px !important;*/
         left: 14vw;
-        top: 90vh;
+        top: 92vh;
+    }
+
+    .home-to-cinema img {
+        width: 250px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 292px;
+        margin: 0 auto;
+        font-size: 24px;
     }
 }
 
 @media (max-width: 360px) {
     .home-to-cinema {
         position: absolute;
-        width: 270px !important;
-        left: 13vw;
+        /*width: 270px !important;*/
+        left: 12vw;
         top: 90vh;
+    }
+
+    .home-to-cinema img {
+        width: 250px !important;
+    }
+
+    .home-to-cinema h2 {
+        width: 292px;
+        margin: 0 auto;
+        font-size: 22px;
     }
 }
 

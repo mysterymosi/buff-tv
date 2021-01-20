@@ -51,5 +51,6 @@
 .about-section {
 	background-color: #fafafa;
 	/*margin-top: 18px;*/
+    padding-top: 240px;
 }
 </style>
