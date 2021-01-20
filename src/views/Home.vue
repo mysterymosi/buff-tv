@@ -3,8 +3,8 @@
     <TheHeader />
     <Banner />
     <WhyBuff />
-    <!-- <GetBuff /> -->
-    <Partners />
+    <GetBuff />
+    <!-- <Partners /> -->
     <FAQs />
   </div>
 </template>
@@ -14,8 +14,8 @@
 import TheHeader from "@/components/TheHeader.vue";
 import Banner from "@/components/Banner.vue";
 import WhyBuff from "@/components/WhyBuff.vue";
-// import GetBuff from "@/components/GetBuff.vue";
-import Partners from "@/components/Partners.vue";
+import GetBuff from "@/components/GetBuff.vue";
+// import Partners from "@/components/Partners.vue";
 import FAQs from "@/components/FAQs.vue";
 
 export default {
@@ -24,8 +24,8 @@ export default {
     TheHeader,
     Banner,
     WhyBuff,
-    // GetBuff,
-    Partners,
+    GetBuff,
+    // Partners,
     FAQs
   }
 };

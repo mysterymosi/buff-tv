@@ -7,7 +7,7 @@
                 <hr>
             </div>
             <div class="row align-item-center">
-                <div class="col-lg-3 col-md-6 col-sm-6 single-logo">
+                <!-- <div class="col-lg-3 col-md-6 col-sm-6 single-logo">
                     <img class="img-fluid" src="../assets/landing/img/logo/logo1.png" alt="">
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 single-logo">
@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 single-logo">
                     <img class="img-fluid" src="../assets/landing/img/logo/logo4.png" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
