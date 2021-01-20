@@ -80,7 +80,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-12 mx-auto">
                     <div class="home-text">
                         <div class="input-group md-form form-sm form-2 pl-0">
                             <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Enter Email" aria-label="Search">
@@ -94,9 +94,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 banner-right text-center">
+                <!-- <div class="col-md-6 banner-right text-center">
                     <img class="img-fluid play-img" src="../assets/landing/img/youtube.svg" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- Video -->
@@ -251,7 +251,7 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 300px !important;
-        left: 20vw;
+        left: 14vw;
         top: 90vh;
     }
 }
@@ -260,7 +260,7 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 304px !important;
-        left: 70px;
+        left: 14vw;
         top: 90vh;
     }
 }
@@ -269,7 +269,7 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 304px !important;
-        left: 70px;
+        left: 12vw;
         top: 90vh;
     }
 }
@@ -278,7 +278,7 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 304px !important;
-        left: 70px;
+        left: 10vw;
         top: 90vh;
     }
 }
@@ -287,7 +287,7 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 270px !important;
-        left: 24vw;
+        left: 14vw;
         top: 90vh;
     }
 }
@@ -296,7 +296,7 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 270px !important;
-        left: 15vw;
+        left: 13vw;
         top: 90vh;
     }
 }
@@ -314,7 +314,7 @@ export default {
     .home-to-cinema {
         position: absolute;
         width: 230px !important;
-        left: 14vw;
+        left: 8vw;
         top: 92vh;
     }
 }
