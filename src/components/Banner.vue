@@ -79,8 +79,17 @@
     <section id="home" class="parallax-section">
         <div class="overlay"></div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 mx-auto">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 col-sm-12">
+                    <div class="home-text">
+                        <h1>Cinema 2 Home Experience</h1>
+                        <!-- <p>Feel free to download and use HTML templates from Tooplate</p> -->
+                        <ul>
+                            <router-link to="/login" class="btn btn-primary btn-lg"><span data-hover="Discover More">Discover More</span></router-link>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
                     <div class="home-text">
                         <div class="input-group md-form form-sm form-2 pl-0">
                             <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Enter Email" aria-label="Search">
@@ -104,12 +113,12 @@
             <source src="../assets/videos/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <div class="home-to-cinema">
+        <!-- <div class="home-to-cinema">
             <img src="../assets/images/Group 141.svg">
             <h2 class="text-center" style="color: black;">
                 Cinema 2 <br> home experience
             </h2>
-        </div>
+        </div> -->
     </section>
 </template>
 <script>
@@ -155,12 +164,39 @@ export default {
 }
 </style> -->
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
 /*.home-to-cinema-text {
     position: absolute;
     width: 534px !important;
     left: 56vw;
     top: 114vh;
 }*/
+
+.home-text h1 {
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #721fa5 0%, #7e166e 100%);
+    border: none;
+    /*margin-bottom: 10px;*/
+    border-radius: 86.5px;
+    margin: 32px 0 0 0;
+    /*padding: 0;*/
+    /*width: 410px;*/
+}
+
+@media (max-width: 600px) {
+    .btn-primary {
+        display: none;
+    }
+
+    .home-text h1 {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
 
 .home-to-cinema {
     position: absolute;
@@ -386,7 +422,7 @@ export default {
         position: absolute;
         /*width: 304px !important;*/
         left: 18vw;
-        top: 90vh;
+        top: 92vh;
     }
 }
 
@@ -414,7 +450,7 @@ export default {
         position: absolute;
         /*width: 270px !important;*/
         left: 12vw;
-        top: 90vh;
+        top: 92vh;
     }
 
     .home-to-cinema img {
@@ -433,7 +469,7 @@ export default {
         position: absolute;
         width: 262px !important;
         left: 9vw;
-        top: 90vh;
+        top: 91vh;
     }
 }
 
