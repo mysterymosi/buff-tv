@@ -109,7 +109,7 @@
             </div>
         </div>
         <!-- Video -->
-        <video controls autoplay loop muted>
+        <video autoplay loop muted>
             <source src="../assets/videos/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -348,6 +348,10 @@ export default {
         left: 35vw;
         top: 90vh;
     }
+
+    #home .overlay {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
 }
 
 @media (max-width: 482px) {
@@ -516,6 +520,7 @@ export default {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
 }
+
 
 #home video {
     position: fixed;

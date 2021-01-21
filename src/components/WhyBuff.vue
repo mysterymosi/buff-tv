@@ -6,8 +6,13 @@
                 <h2 class="text-center">Why Buff Tv?</h2>
             </div>
             <div class="row align-items-center justify-content-between">
-            	<div class="col-lg-6 col-md-12 about-left">
-                    <img class="img-fluid" src="../assets/landing/img/bufftv.svg" alt="">
+                <div class="col-lg-6 col-md-12 about-left">
+                    <!-- <div class="overlay"></div> -->
+                    <img class="img-fluid tv-img" src="../assets/images/tv-1.png" alt="">
+                    <video height="900" autoplay loop muted>
+                        <source src="../assets/videos/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
                 <div class="col-lg-5 col-md-7 about-right">
                     <ul>
@@ -42,15 +47,79 @@
     </section>
     <!-- End about section -->
 </template>
-
 <style scoped>
 .m-bottom {
-	margin-bottom: 99px !important;
+    margin-bottom: 99px !important;
 }
 
 .about-section {
-	background-color: #fafafa;
-	/*margin-top: 18px;*/
+    background-color: #fafafa;
+    /*margin-top: 18px;*/
     padding-top: 240px;
+}
+
+.about-left {
+    background-size: cover;
+    background-position: center;
+}
+
+.about-left .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.about-left .tv-img {
+    z-index: 100;
+} 
+
+.about-left video {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    min-width: 10%;
+    min-height: 10%;
+    width: 93.1%;
+    height: 102%;
+    /*z-index: -3;*/
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+@media (max-width: 768px) {
+    .about-left video {
+        width: 94.4%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-left video {
+        width: 92.3%;
+    }
+}
+
+@media (max-width: 414px) {
+    .about-left video {
+        width: 91.1%;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-left video {
+        width: 90.8%;
+    }
+}
+
+@media (max-width: 320px) {
+    .about-left video {
+        width: 89.2%;
+    }
 }
 </style>
