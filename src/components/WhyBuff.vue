@@ -10,7 +10,7 @@
                     <!-- <div class="overlay"></div> -->
                     <img class="img-fluid tv-img" src="../assets/images/tv-1.png" alt="">
                     <video height="900" autoplay loop muted>
-                        <source src="../assets/videos/video.mp4" type="video/mp4">
+                        <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
